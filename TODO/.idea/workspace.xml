@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51ef2c59-7f9d-40b5-a331-e7432aad7215" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oy2XvffJEHsqhirqENsIGs8Q3y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\TODO" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TODO" type="Python.DjangoServer" factoryName="Django server">
+      <module name="TODO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="TODO.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51ef2c59-7f9d-40b5-a331-e7432aad7215" name="Default Changelist" comment="" />
+      <created>1614244552403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614244552403</updated>
+      <workItem from="1614244563497" duration="21020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1614276159444">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1614276159444" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1614276159443">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1614276159443" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1614276159443">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1614276159443" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1614276159443">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1614276159443" />
+    <state x="144" y="6" key="SettingsEditor" timestamp="1614244600717">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="144" y="6" key="SettingsEditor/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1614244600717" />
+    <state x="93" y="93" width="1095" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1614275436333">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1614275436333" />
+    <state x="301" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614275415382">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="301" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1614275415382" />
+  </component>
+</project>

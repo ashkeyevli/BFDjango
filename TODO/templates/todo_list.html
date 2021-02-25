@@ -1,0 +1,54 @@
+{% load static%}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = "text/css" href="{% static 'css/todo_list.css'%}"/>
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="app_bar"><p>BFDjango TODO</p></div>
+    <div class="main_part">
+    <button class="task_add">Add Task</button>
+    <table class="equal-width-cols">
+    <tr>
+        <th  style="font-size: 36px">
+    Tasks in "List 1"
+        </th>
+   </tr>
+</table>
+    <table class="equal-width-cols">
+        <tr >
+      <th scope="col" >Task</th>
+      <th scope="col">Created</th>
+      <th scope="col">Due on</th>
+      <th scope="col">Owner</th>
+       <th scope="col">Mark</th>
+
+    </tr>
+
+	{% for curtask in tasks_list %}
+ {% if curtask.mark == True %}
+
+			<td style="color: #598FFB">{{ curtask.task }}</td>
+			<td>{{ curtask.created }}</td>
+			<td>{{ curtask.due_on }}</td>
+			<td >{{ curtask.owner }}</td>
+
+
+			<td ><div class="status">Done</div></td>
+
+       </tr>
+
+
+        {% endif %}
+       {% endfor%}
+
+</table>
+    <a href="1/completed/" class="view_complete">View completed tasks</a>
+<button class="delete">Delete this list</button>
+    </div>
+</body>
+</html>
