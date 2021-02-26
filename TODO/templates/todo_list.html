@@ -1,17 +1,5 @@
-{% load static%}
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type = "text/css" href="{% static 'css/todo_list.css'%}"/>
-    <title>Todo List</title>
-</head>
-<body>
-    <div class="app_bar"><p>BFDjango TODO</p></div>
-    <div class="main_part">
-    <button class="task_add">Add Task</button>
+{% extends 'base.html' %}
+{% block content %}
     <table class="equal-width-cols">
     <tr>
         <th  style="font-size: 36px">
@@ -48,7 +36,4 @@
 
 </table>
     <a href="1/completed/" class="view_complete">View completed tasks</a>
-<button class="delete">Delete this list</button>
-    </div>
-</body>
-</html>
+{% endblock %}
