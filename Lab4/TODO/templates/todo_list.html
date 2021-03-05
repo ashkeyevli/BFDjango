@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+    <table class="equal-width-cols">
+    <tr>
+        <th  style="font-size: 36px">
+
+    Tasks in "{{ todo.name }}"
+
+        </th>
+   </tr>
+</table>
+    <table class="equal-width-cols">
+        <tr >
+      <th scope="col" >Task</th>
+      <th scope="col">Created</th>
+      <th scope="col">Due on</th>
+      <th scope="col">Owner</th>
+       <th scope="col">Mark</th>
+
+    </tr>
+ {% for curtask in tasks_list %}
+
+
+			<td style="color: #598FFB">{{ curtask.task }}</td>
+			<td>{{ curtask.created_date| date:"d/m/Y" }}</td>
+			<td>{{ curtask.due_on| date:"d/m/Y" }}</td>
+			<td >{{ curtask.owner }}</td>
+
+
+			<td ><div class="status">Not Done</div></td>
+
+       </tr>
+
+       {% endfor%}
+
+</table>
+    <a href="/todos/{{ todo.id}}/completed/" class="view_complete">View completed tasks</a>
+    <button class="delete">Delete this list</button>
+{% endblock %}
