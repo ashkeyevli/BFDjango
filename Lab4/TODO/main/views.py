@@ -1,38 +1,6 @@
 from django.shortcuts import render
 from .models import Todos, Tasks
 # Create your views here.
-tasks =[{
-        'task': 'Task 1',
-        'created': '10/09/2018',
-        'due_on': '12/09/2018',
-        'owner': 'admin',
-        'mark': True
-    },
-        {'task': 'Task 2',
-        'created': '10/09/2018',
-        'due_on': '12/09/2018',
-        'owner': 'admin',
-        'mark': True
-    },
-        {'task': 'Task 3',
-         'created': '10/09/2018',
-         'due_on': '12/09/2018',
-         'owner': 'admin',
-         'mark': True
-         },
-        {'task': 'Task 4',
-         'created': '10/09/2018',
-         'due_on': '12/09/2018',
-         'owner': 'admin',
-         'mark': True
-         },
-        {'task': 'Task 0',
-         'created': '10/09/2018',
-         'due_on': '12/09/2018',
-         'owner': 'admin',
-         'mark': False
-         },
-    ]
 
 def todo_list(request, pk):
     tasks = Tasks.objects.filter(todos=pk, mark=False)
