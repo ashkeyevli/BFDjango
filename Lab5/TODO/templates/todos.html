@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+    <table class="equal-width-cols">
+    <tr>
+        <th  style="font-size: 36px">
+    List of To-Do
+        </th>
+   </tr>
+</table>
+    <table class="equal-width-cols">
+        <tr >
+      <th scope="col" >List</th>
+    </tr>
+
+	{% for curTodo in todos %}
+        <td ><a  style="text-decoration: none; color: #598FFB" href="{{curTodo.id}}/todos">{{ curTodo }}</a></td>
+       </tr>
+       {% endfor%}
+
+</table>
+{% endblock %}
